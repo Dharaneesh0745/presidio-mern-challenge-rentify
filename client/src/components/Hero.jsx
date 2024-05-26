@@ -85,7 +85,7 @@ const Hero = () => {
             <div className="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
               <a
                 href="#"
-                className="mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+                className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
               >
                 <svg
                   className="h-8"
@@ -131,7 +131,7 @@ const Hero = () => {
                   />
                 </svg>
               </a>
-              {/* <a
+              <a
                 href="#"
                 className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
               >
@@ -154,10 +154,10 @@ const Hero = () => {
                     fill="currentColor"
                   />
                 </svg>
-              </a> */}
+              </a>
               <a
                 href="#"
-                className="mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+                className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
               >
                 <svg
                   className="h-11"
