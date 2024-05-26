@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  apiKey: "AIzaSyA-lF64MTQmGmxxgxQOfdnN0c7dbfLwrNM",
   authDomain: "presidio-rentify.firebaseapp.com",
   projectId: "presidio-rentify",
   storageBucket: "presidio-rentify.appspot.com",
