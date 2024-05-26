@@ -63,7 +63,7 @@ export default function SignUp() {
           className="border p-3 rounded-lg"
           id="mobile"
           onChange={handleChange}
-          max={10}
+          maxLength={10}
         />
         <input
           type="password"
