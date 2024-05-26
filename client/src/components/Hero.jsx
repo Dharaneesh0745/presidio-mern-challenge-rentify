@@ -36,8 +36,10 @@ const Hero = () => {
             We invest in the world’s potential
           </h1>
           <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-            Here at Flowbite we focus on markets where technology, innovation,
-            and capital can unlock long-term value and drive economic growth.
+            Here at Rentify, our mission is to hone in on real estate markets
+            ripe for transformation, where cutting-edge technology, innovative
+            strategies, and strategic investment can unlock enduring value and
+            spur sustained economic expansion.
           </p>
           <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a
@@ -83,7 +85,7 @@ const Hero = () => {
             <div className="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
               <a
                 href="#"
-                className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+                className="mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
               >
                 <svg
                   className="h-8"
@@ -129,7 +131,7 @@ const Hero = () => {
                   />
                 </svg>
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
               >
@@ -152,10 +154,10 @@ const Hero = () => {
                     fill="currentColor"
                   />
                 </svg>
-              </a>
+              </a> */}
               <a
                 href="#"
-                className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+                className="mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
               >
                 <svg
                   className="h-11"

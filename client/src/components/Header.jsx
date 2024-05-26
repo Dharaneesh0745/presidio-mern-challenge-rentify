@@ -23,11 +23,11 @@ export default function Header() {
     }
   }, [location.search]);
   return (
-    <header className="bg-gray-200 shadow-md">
+    <header className="bg-black shadow-md">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link to="/">
           <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
-            <span className="text-black">Rentify</span>
+            <span className="text-white">Rentify</span>
           </h1>
         </Link>
         <form
@@ -64,8 +64,8 @@ export default function Header() {
                 alt="profile"
               />
             ) : (
-              <button className="bg-black px-3 py-2 rounded-md">
-                <li className="text-white"> Sign in</li>
+              <button className="bg-white px-3 py-2 rounded-md">
+                <li className="text-black"> Sign in</li>
               </button>
             )}
           </Link>

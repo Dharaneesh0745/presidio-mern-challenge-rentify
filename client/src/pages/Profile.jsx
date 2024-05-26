@@ -192,7 +192,7 @@ export default function Profile() {
         </p>
         <input
           type="text"
-          placeholder="username"
+          placeholder="Update Username"
           defaultValue={currentUser.username}
           id="username"
           className="border p-3 rounded-lg"
@@ -209,7 +209,7 @@ export default function Profile() {
         />
         <input
           type="number"
-          placeholder="email"
+          placeholder="Mobile number"
           id="mobile"
           defaultValue={currentUser.mobile}
           className="border p-3 rounded-lg"
@@ -218,7 +218,7 @@ export default function Profile() {
         />
         <input
           type="password"
-          placeholder="password"
+          placeholder="Update Password"
           onChange={handleChange}
           id="password"
           className="border p-3 rounded-lg"
@@ -253,7 +253,7 @@ export default function Profile() {
         {updateSuccess ? "User is updated successfully!" : ""}
       </p>
       <button onClick={handleShowListings} className="text-green-700 w-full">
-        Show Listings
+        Show My Listings
       </button>
       <p className="text-red-700 mt-5">
         {showListingsError ? "Error showing listings" : ""}
