@@ -28,6 +28,10 @@ export default function Listing() {
   const params = useParams();
   const { currentUser } = useSelector((state) => state.user);
 
+  const likeToLogin = () => {
+    window.location.href = "/sign-in";
+  };
+
   useEffect(() => {
     const fetchListing = async () => {
       try {
@@ -96,6 +100,20 @@ export default function Listing() {
                 : listing.regularPrice.toLocaleString("en-US")}
               {listing.type === "rent" && " / month"}
             </p>
+            <div className="">
+              {currentUser ? (
+                <button className="px-2 py-2 bg-red-500 rounded-md text-white font-bold text-xl">
+                  Like ♡
+                </button>
+              ) : (
+                <button
+                  onClick={likeToLogin}
+                  className="px-2 py-2 bg-red-500 rounded-md text-white font-bold text-xl"
+                >
+                  Like ♡
+                </button>
+              )}
+            </div>
             <p className="flex items-center mt-6 gap-2 text-slate-600  text-sm">
               <FaMapMarkerAlt className="text-green-700" />
               {listing.address}
@@ -160,6 +178,7 @@ export default function Listing() {
 
             {contact && <Contact listing={listing} />}
           </div>
+
           <div></div>
         </div>
       )}
