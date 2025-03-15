@@ -13,8 +13,6 @@ MERN Stack: A Modern RENTIFY Real Estate Marketplace with jwt authentication and
     🌐 Deployment: Deployed this MERN real estate RENTIFY app for free using the 'render' platform.
 
 
-Completely Designed and Developed by Dharaneesh Boobalan. https://codewithdharaneesh.me
-
 To run my code, run the following commands on folders,
     1. api
     2. client
